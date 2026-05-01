@@ -16,22 +16,22 @@
             "name": "Attach to Chrome",
             "port": 9222,
             "request": "attach",
-            "type": "chrome",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Attach to Edge",
-            "port": 9222,
-            "request": "attach",
-            "type": "msedge",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        }
-    ]
-,,,
+                        "type": "chrome",
+                                    "webRoot": "${workspaceFolder}"
+                                            },
+                                                    {
+                                                                "name": "Attach to Edge",
+                                                                            "port": 9222,
+                                                                                        "request": "attach",
+                                                                                                    "type": "msedge",
+                                                                                                                "webRoot": "${workspaceFolder}"
+                                                                                                                        },
+                                                                                                                                {
+                                                                                                                                            "type": "chrome",
+                                                                                                                                                        "request": "launch",
+                                                                                                                                                                    "name": "Launch Chrome against localhost",
+                                                                                                                                                                                "url": "http://localhost:8080",
+                                                                                                                                                                                            "webRoot": "${workspaceFolder}"
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                        ]
+                                                                                                                                                                                                        ,,,,,,,,,,
